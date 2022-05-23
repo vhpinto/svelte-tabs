@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "build": "rollup -c",
-    "dev": "rollup -c -w",
+    "dev": "start-storybook -p 6006",
     "start": "sirv public --no-clear --port 3000",
     "check": "svelte-check --tsconfig ./tsconfig.json",
     "storybook": "start-storybook -p 6006",

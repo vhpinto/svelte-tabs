@@ -1,7 +1,7 @@
 import Nav from "../components/Nav.svelte";
 
 export default {
-  title: "Nav",
+  title: "Tabs/Nav",
   component: Nav,
 };
 

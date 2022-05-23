@@ -32,8 +32,7 @@ export let tabs: {title: string, content: string}[] = [
     
     
     
-<main>
-  <div>
+  <div class="my-nav">
       {#each tabs as tab (tab.title)}
       <Nav
         title={tab.title}
@@ -43,8 +42,11 @@ export let tabs: {title: string, content: string}[] = [
       {/each}
     </div>
   <Tab content={selectedTab.content}> </Tab>
-</main>
     
 <style>
-
+  .my-nav {
+    height: auto;
+    width: auto;
+    max-width: 1000px;
+  }
 </style>

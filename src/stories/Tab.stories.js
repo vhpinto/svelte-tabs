@@ -1,7 +1,7 @@
 import Tab from "../components/Tab.svelte";
 
 export default {
-  title: "Tab",
+  title: "Tabs/Tab",
   component: Tab,
 };
 
